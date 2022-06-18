@@ -1,0 +1,17 @@
+{
+  "name": "psgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "psgen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "minimist": "^1.2.6",
+    "prompt-sync": "^4.2.0"
+  }
+}
