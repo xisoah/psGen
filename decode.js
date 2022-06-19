@@ -1,5 +1,7 @@
 import fs from 'fs';
-var text = fs.readFileSync("./dnsOut.txt", 'utf-8');
+
+const path = process.argv[2]
+var text = fs.readFileSync(path, 'utf-8');
 var [a,c] = [[],[]]
 
 text.split('\n').forEach(line=>{if(line.includes("(AA)") || line.includes("(AAAA)")) a.push(line.split('.')[0].slice(1,))})
